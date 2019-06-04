@@ -3,4 +3,7 @@ $(document).ready(function(){
     $("#walrus-showing").slideToggle();
     $("#walrus-hidden").slideToggle();
   });
+  $(".clickable2").click(function(){
+    $(".hidden-text").fadeToggle();
+  });
 });
